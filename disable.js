@@ -20,4 +20,4 @@ if (span.length > 0) {
   }
 }
 
-thingsToRemove.forEach((item) => (item.style.display = "none"));
+thingsToRemove.forEach((item) => (item.style.display = "none !important"));
